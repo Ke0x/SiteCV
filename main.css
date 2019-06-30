@@ -1,0 +1,435 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: 150px;
+    width: 50%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    align-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+.box-shadow-full {
+    padding: 3rem;
+}
+}
+
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+  
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+  
+  .skill-mf span {
+    color: #4e4e4e;
+  }
+  
+  .skill-mf .progress {
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+    height: .7rem;
+    background-color: #0078ff;
+  }
+
+  /*--/ Titre Information /--*/
+
+  .title-box-2 {
+    margin-bottom: 3rem;
+  }
+
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    bottom: -12px;
+  }
+
+  .title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+  }
+
+  .sect-pt4 {
+    padding-top: 4rem;
+}
+
+.nom {
+  font-weight: 600;
+}
+
+.textFond {
+  color: #fff;
+  font-weight: bold;
+  font-size: 6rem;
+  padding: 0;
+  text-align: center
+}
+
+.textFond2 {
+  color: #fff;
+  font-size: 4rem;
+  padding: 0;
+}
+
+.title{
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4) !important;    
+}
+
+.divider-title{
+  border:1px solid #dddddd;
+}
+
+.project {
+  margin-bottom: 30px;
+  vertical-align: top;
+  float: left;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 50
+}
+
+.project figure {
+  position: relative;
+  display: inline-block;
+  width: 283px;
+  -moz-box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+  -webkit-box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+  box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+  -webkit-box-shadow: 0 3px 0 #e2e2e2;
+  -moz-box-shadow: 0 3px 0 #e2e2e2;
+  box-shadow: 0 3px 0 #e2e2e2;
+}
+
+.project figure figcaption {
+  position: relative;
+  z-index: 10;
+  padding: 8px 18px 11px;
+  background: #fff;
+  -ms-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  text-align: left;
+  color: #555;
+}
+
+.project figure:hover .actions {
+  opacity: 1;
+}
+
+.project figure .actions {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(29,29,29,.7);
+  -ms-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.project figure img {
+  border: 0;
+  width: 100%;
+}
+.btn-warning bnt-action{
+  margin: 0% 0% auto;    
+}
+
+figcaption .project-details {
+  display: block;
+  font-size: 16px;
+  line-height: 33px;
+  color: #0093d0;
+  height: 27px;
+  width: 85%;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+figcaption .project-price {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 22px;
+  text-align: right;
+  margin-top: 8px;
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+figcaption .project-creator {
+  font-size: 13px;
+  color: #545454;
+  display: block;
+}
+
+figcaption .project-creator {
+  font-size: 13px;
+  color: #545454;
+  display: block;
+}
+
+.project figure .actions button {
+  padding: 13px 20px;
+  font-size: 16px;
+  top: 32%;
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  margin-left: -45%;
+  line-height: 18px;
+  letter-spacing: 1px;
+} 
+
+.container {
+  flex: 1;
+  width: 100%;
+  flex-direction: row
+}
+
+.box {
+  margin: auto;
+}
+
+.divProjet {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.projet {
+  height: 280px;
+  width: 200px;
+  background-color: #1f344d;
+  border-radius: 20px;
+  display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white
+}
+
+.box-shadow-full2 {
+  padding-bottom: 50px;
+  margin-top: 50px;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logoComp {
+  height: 190px;
+  width: 190px
+}
+
+img[alt="www.000webhost.com"]{display: none;}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 180px;
+  height: 15px;
+}
+
+::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 10px
+}
+
+::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 10px
+}
+

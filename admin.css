@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f344d;
+    color: white
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 20px
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+    border: 0;
+    background-color: #191919;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #285588;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #285588;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover {
+    background: #285588;
+    border:2px solid #162b42
+}
+
+.boxFichier {
+    width: 300px;
+    padding: 40px;
+    width: 300px;
+    margin: 40;
+    background-color: #191919;
+    border-radius: 20px;
+    display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.boxFichier input[type = "text"],.boxFichier input[type = "number"] {
+    border: 0;
+    background-color: #191919;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #285588;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+
+.boxFichier input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #285588;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.boxFichier input[type = "submit"]:hover {
+    background: #285588;
+    border:2px solid #162b42
+}
+
+.divProjet {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: 50%
+  }
+
+  .projet {
+    height: 280px;
+    width: 200px;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white
+  }
+
+  th {
+    border:2px solid #162b42
+  }
+
+  table {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+  }
+
+  img[alt="www.000webhost.com"]{display: none;}
